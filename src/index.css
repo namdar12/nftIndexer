@@ -38,7 +38,7 @@ h1 {
   line-height: 1.1;
 }
 
-button {
+/* button {
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -55,7 +55,7 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
+} */
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -68,4 +68,76 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+button {
+  width: 400px;
+  height: 100px;
+  font-size: 50px;
+  background: #fff;
+  border: none;
+  border-radius: 50px;
+  color: #000;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+button:hover {
+  -webkit-box-shadow: inset 0 0 0 4px #ef476f, inset 0 0 0 8px #ffd166,
+    inset 0 0 0 12px #06d6a0, inset 0 0 0 16px #118ab2;
+  box-shadow: inset 0 0 0 4px #ef476f, inset 0 0 0 8px #ffd166,
+    inset 0 0 0 12px #06d6a0, inset 0 0 0 16px #118ab2;
+  background: #073b4c;
+  color: #fff;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+button {
+  width: 200px;
+  height: 100px;
+  font-size: 18px;
+  background: #fff;
+  border: none;
+  border-radius: 50px;
+  color: #000;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+button:hover {
+  -webkit-box-shadow: inset 0 0 0 4px #ef476f, inset 0 0 0 8px #ffd166,
+    inset 0 0 0 12px #06d6a0, inset 0 0 0 16px #118ab2;
+  box-shadow: inset 0 0 0 4px #ef476f, inset 0 0 0 8px #ffd166,
+    inset 0 0 0 12px #06d6a0, inset 0 0 0 16px #118ab2;
+  background: #073b4c;
+  color: #fff;
 }
